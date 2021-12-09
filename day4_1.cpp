@@ -13,7 +13,7 @@ struct bingocard {
 
     bingocard(vector<int> g){
         this->grid = g;
-        strike = vector(25,false);
+        strike = vector<bool>(25,false);
     }
 
     void update(int num) {
